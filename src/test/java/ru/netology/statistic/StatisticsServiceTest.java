@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class StatisticsServiceTest {
-
     @Test
     void findMax() {
         StatisticsService service = new StatisticsService();
@@ -28,4 +27,5 @@ public class StatisticsServiceTest {
 
         assertEquals(expected, actual);
     }
+
 }
